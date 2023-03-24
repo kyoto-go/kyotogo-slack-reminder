@@ -70,7 +70,7 @@
 
 		<div class="mt-4">
 			<h2 class="block text-sm font-medium text-gray-700">コマンド</h2>
-			<output class="block rounded-md bg-gray-200 mt-1 mb-2 px-4 py-5">
+			<output class="block rounded-md bg-gray-100 mt-1 mb-2 px-4 py-5">
 				{output}
 			</output>
 			{#if $form.valid}
