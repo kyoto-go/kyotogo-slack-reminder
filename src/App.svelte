@@ -4,7 +4,7 @@
 	const times = Object.freeze(Array.from({ length: 24 }, (_, i) => `${i}:00`));
 
 	const form = useForm({
-		message: { initial: '@uji @yebis0942 @たぬき 明日はKyoto.goです。20:00に集まって事前確認をしましょう' },
+		message: { initial: '@uji @yebis0942 @たぬき @econ econ 明日はKyoto.goです。20:00に集まって事前確認をしましょう' },
 		date: { initial: new Date().toISOString().slice(0, 10) }, // YYYY-MM-DD
 		time: { initial: times[12] } // 12:00
 	});
